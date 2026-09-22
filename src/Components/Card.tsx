@@ -1,4 +1,4 @@
-import Button from "../Components/Buttons";
+import Button from "./Buttons";
 
 type ProductCardProps = {
   id: number;

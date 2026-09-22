@@ -1,11 +1,11 @@
-import { user } from "../../Data/User";
+import {user } from "../Data/User";
 
 export default function Profile() {
   return (
     <div className="min-h-screen bg-blue-50 px-6 py-10">
       <div className="mx-auto max-w-4xl rounded-2xl border-2 border-blue-600 bg-white p-8 shadow-lg">
 
-        {/* Profile Header */}
+
         <div className="mb-8 rounded-xl bg-blue-600 p-6 text-white">
           <h1 className="text-3xl font-bold">
             User Profile
@@ -16,7 +16,6 @@ export default function Profile() {
           </p>
         </div>
 
-        {/* User Information */}
         <div>
           <h2 className="mb-5 text-2xl font-bold text-black">
             Personal Information
@@ -24,7 +23,7 @@ export default function Profile() {
 
           <div className="grid gap-5 sm:grid-cols-2">
 
-            {/* Name */}
+  
             <div className="rounded-lg border-2 border-blue-600 p-4">
               <p className="text-sm font-medium text-blue-600">
                 Full Name
@@ -35,7 +34,7 @@ export default function Profile() {
               </p>
             </div>
 
-            {/* Email */}
+   
             <div className="rounded-lg border-2 border-green-600 p-4">
               <p className="text-sm font-medium text-green-600">
                 Email
@@ -46,7 +45,7 @@ export default function Profile() {
               </p>
             </div>
 
-            {/* Phone */}
+      
             <div className="rounded-lg border-2 border-red-600 p-4">
               <p className="text-sm font-medium text-red-600">
                 Phone
@@ -57,7 +56,7 @@ export default function Profile() {
               </p>
             </div>
 
-            {/* Address */}
+    
             <div className="rounded-lg border-2 border-amber-800 p-4">
               <p className="text-sm font-medium text-amber-800">
                 Address
@@ -71,7 +70,7 @@ export default function Profile() {
           </div>
         </div>
 
-        {/* Status */}
+     
         <div className="mt-8 rounded-lg border-2 border-green-600 p-4">
           <p className="font-semibold text-green-600">
             Account Status

@@ -1,12 +1,12 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Navbar from "./components/Navbar/Navbar";
+import Navbar from "./Components/Navbar";
 
-import Home from "./pages/Home/Home";
-import About from "./pages/About/About";
-import Products from "./pages/Products/Products";
-import Contact from "./pages/Contact/Contact";
-import Profile from "./pages/Profile/Profile";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Product from "./pages/Product";
+import Contact from "./pages/Contact";
+import Profile from "./pages/Profile";
 
 export default function App() {
   return (
@@ -16,7 +16,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/products" element={<Products />} />
+       <Route path="/product" element={<Product />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/profile" element={<Profile />} />
       </Routes>
